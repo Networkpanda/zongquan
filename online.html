@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>在线视频</title>
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/online.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1 onclick="window.location.href = 'index.html'">千与千寻</h1>
+				<div class="wow head_nav animate__animated animate__lightSpeedInRight">
+					<div class="item" onclick="window.location.href = 'index.html'">首页</div>
+					<div class="item" onclick="window.location.href = 'movie.html'">动漫大全</div>
+					<div class="item" onclick="window.location.href = 'recommend.html'">推荐作品</div>
+					<div class="item active" onclick="window.location.href = 'online.html'">在线视频</div>
+				</div>
+			</header>
+			<div class="wow banner animate__zoomIn animate__animated">
+				<img src="img/banner_2.jpg" alt="">
+			</div>
+			<div class="main">
+				<div class="title">在线视频 最美人间烟火气-宫崎骏动漫混剪</div>
+				<div class="wow video animate__rollIn animate__animated">
+					<img src="img/banner_2_2.jpeg" alt="">
+					<div class="mask">
+						<i class="play">&#xea6e;</i>
+					</div>
+				</div>
+				<video src="img/movie.mp4" controls class="hide_video" width="1200px"></video>
+			</div>
+			<footer class="wow animate__animated animate__bounceInLeft">关于宫崎骏的瞬间————千与千寻</footer>
+		</div>
+		<script src="js/wow.min.js"></script>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			let vd = document.querySelector('.hide_video')
+			new WOW().init();
+			$('.hide_video').hide()
+			$('.play').click(()=>{
+				$('.hide_video').show()
+				vd.play()
+				$('.video').hide()
+			})
+		</script>
+	</body>
+</html>

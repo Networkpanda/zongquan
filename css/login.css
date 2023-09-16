@@ -1,0 +1,10 @@
+.container{
+	width: 100vw;
+	height: 100vh;
+	background: url('../img/login_bg.jpg') no-repeat;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}  

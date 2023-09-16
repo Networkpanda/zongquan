@@ -1,0 +1,27 @@
+.banner{
+	width: 1200px;
+	height: 500px;
+}
+.main{
+	margin: 20px 0;
+	height: 800px;
+}
+.main .content{
+	display: flex;
+	height: 500px;
+}
+.main .content .content_l{
+	width: 300px;
+	margin-right: 40px;
+}
+.main .content .content_r{
+	flex: 1;
+}
+.main .content .content_r .images{
+	height: 300px;
+}
+.main .content .content_r p{
+	line-height: 30px;
+	text-indent: 2em;
+	margin: 10px 0;
+}

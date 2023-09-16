@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6999503",
+      "name": "爱心",
+      "font_class": "tuya_huabanfuben",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "7594051",
+      "name": "24gl-playCircle",
+      "font_class": "24gl-playCircle",
+      "unicode": "ea6e",
+      "unicode_decimal": 60014
+    },
+    {
+      "icon_id": "21732487",
+      "name": "熊市",
+      "font_class": "xiongshi",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "27479549",
+      "name": "windmill",
+      "font_class": "windmill",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    }
+  ]
+}

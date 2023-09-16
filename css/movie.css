@@ -1,0 +1,46 @@
+.main{
+	display: flex;
+}
+.content_l{
+	flex: 1;
+}
+.content_l .list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content_l .list .item{
+	width: 250px;
+	height: 500px;
+	margin: 10px 0;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.content_l .list .item .poster{
+	height: 80%;
+	background-color: red;
+}
+.content_l .list .item p{
+	padding: 10px;
+	border-bottom: 2px solid #333;
+}
+.content_l .list .item .detail{
+	text-align: right;
+	padding: 10px;
+}
+.content_r{
+	width: 400px;
+}
+.content_r .list .item{
+	display: flex;
+	height: 120px;
+	padding: 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+}
+.content_r .list .item .avater{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	margin-right: 10px;
+}

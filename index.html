@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1 onclick="window.location.href = 'index.html'">千与千寻</h1>
+				<div class=" wow head_nav animate__animated animate__lightSpeedInRight">
+					<div class="item active" onclick="window.location.href = 'index.html'">首页</div>
+					<div class="item" onclick="window.location.href = 'movie.html'">动漫大全</div>
+					<div class="item" onclick="window.location.href = 'recommend.html'">推荐作品</div>
+					<div class="item" onclick="window.location.href = 'online.html'">在线视频</div>
+				</div>
+			</header>
+			<div class="swiper wow animate__animated animate__fadeInUp">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/swiper1.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/swiper2.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/swiper3.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="card">
+					<div class="wow card_item animate__animated animate__bounceInUp">
+						<i>&#xe75e;</i>
+						<h3>温情感动</h3>
+						<p>宫崎骏的动漫画面细腻，对人物的塑造也十分得体，而且他的每一部动漫都蕴含了丰富的人生哲理</p>
+					</div>
+					<div class="wow card_item animate__animated animate__bounceInUp">
+						<i>&#xe888;</i>
+						<h3>放眼未来</h3>
+						<p>是宫崎骏本身的忧虑，通过他的作品我们能看到他对人类命运和前途的担心</p>
+					</div>
+					<div class="wow card_item animate__animated animate__bounceInUp">
+						<i>&#xe73f;</i>
+						<h3>天马行空</h3>
+						<p>宫崎骏将人、自然和现代科技加入动漫里创作出一部天马行空的动漫作品，他曾说过希望拯救人类堕落的灵魂</p>
+					</div>
+				</div>
+				<div class="author">
+					<div class="title">关于宫崎骏</div>
+					<div class="text">
+						<div class="wow author_avater animate__animated animate__bounceInLeft">
+							<img src="img/gqj.jpg" alt="">
+						</div>
+						<p class="wow animate__animated animate__bounceInRight">宫崎骏可以说是日本动画界的一个传奇，可以说如果没有他的话，日本的动画事业将会大大逊色。
+							他是第一位将动画上升到人文高度的思想者，同时也是日本三代动画家中，承前启后的精神支柱人物。
+							宫崎骏在打破手冢治虫巨人阴影的同时，用自己坚毅的性格和永不妥协的奋斗又为后代动画家做出了榜样。
+							宫崎骏的动画片是能够和迪斯尼、梦工厂共分天下的一支重要的东方力量。宫崎骏的每部作品，题材虽然不同，但却将
+							梦想、环保、人生、生存这些令人反思的讯息，融合其中。他这份执著，不单令全球人产生共鸣，更受到全世界所重视，就连
+							美国动画王国迪斯尼，都要斟介宫崎骏的动画电影发行版权。
+						</p>
+					</div>
+				</div>
+				<div class="list">
+					<div class="title">精彩瞬间</div>
+					<div class="images">
+						<div class="wow item animate__animated animate__fadeInUp">
+							<img src="img/list_1.jpg" alt="">
+							<div class="mask">
+								<span>千与千寻</span>
+							</div>
+						</div>
+						<div class="wow item animate__animated animate__fadeInUp">
+							<img src="img/list_2.jpg" alt="">
+							<div class="mask">
+								<span>起风了</span>
+							</div>
+						</div>
+						<div class="wow item animate__animated animate__fadeInUp">
+							<img src="img/list_3.jpg" alt="">
+							<div class="mask">
+								<span>崖上的金鱼姬</span>
+							</div>
+						</div>
+						<div class="wow item animate__animated animate__fadeInUp">
+							<img src="img/list_4.jpeg" alt="">
+							<div class="mask">
+								<span>哈尔的移动城堡</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="wow animate__animated animate__bounceInLeft">关于宫崎骏的瞬间————千与千寻</footer>
+		</div>
+	</body>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.js"> </script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+		var mySwiper = new Swiper('.swiper', {
+			loop: true, // 循环模式选项
+
+			// 如果需要分页器
+			pagination: {
+				el: '.swiper-pagination',
+			},
+			autoplay: true,
+			// 如果需要滚动条
+			scrollbar: {
+				el: '.swiper-scrollbar',
+			},
+		})
+	</script>
+</html>
